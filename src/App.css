@@ -1,5 +1,12 @@
+html {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
 .App-logo {
@@ -20,8 +27,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  /* font-size: 1.3em; */
+}
+
+.txt-ctr {
+  text-align: center;
+}
+
+.txt-danger {
+  color: red;
+}
+
+.invalid {
+  border: 2px solid red !important;
+}
+
+.valid {
+  border: 2px solid green !important;
 }
 
 .App-link {

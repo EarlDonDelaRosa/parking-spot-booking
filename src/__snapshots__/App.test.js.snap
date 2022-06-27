@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`This is login page To check if data has changed 1`] = `
+<h2>
+  Login
+</h2>
+`;
+
+exports[`This is login page To check if data has changed 2`] = `
+<h5>
+  Welcome 
+</h5>
+`;
